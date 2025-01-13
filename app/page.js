@@ -1,9 +1,5 @@
-import Image from "next/image";
+import AnimatedWords from "@/components/Motion";
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      TEST PROJECT
-    </main>
-  );
+  return <AnimatedWords />;
 }
