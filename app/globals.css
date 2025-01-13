@@ -18,10 +18,14 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  font-family: var(--font-pelak);
+}
+
+.gradient-text {
+  background: linear-gradient(270deg, #DD5602 0%, #FFA630 33.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
