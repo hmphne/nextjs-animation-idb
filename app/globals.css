@@ -29,3 +29,31 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+h2 {
+  font-size: 20px;
+  color: #FFA630;
+  font-weight: 600;
+}
+
+input {
+  border: 1px solid #DD5602;
+  border-radius: 10px;
+  outline: none;
+  height: 40px;
+  color: black;
+  padding: 4px;
+}
+
+button {
+  color: black;
+  background: #FFA630;
+  border-radius: 4px;
+  padding: 4px
+}
+
+select {
+  border-radius: 10px;
+  color: black;
+  outline: none;
+}
